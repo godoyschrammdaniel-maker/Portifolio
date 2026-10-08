@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orion Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <div class="topo">
+            <h1>Orion Bank</h1>
+            <p>Caixa Eletrônico Digital</p>
+        </div>
+
+        <div class="saldo-card">
+            <span>Saldo disponível</span>
+            <h2 id="saldo">R$ 1.000,00</h2>
+        </div>
+
+        <div class="formulario">
+            <label>Valor do saque</label>
+            <input type="number" id="saque" placeholder="Digite o valor">
+
+            <button onclick="sacar()">
+                Realizar Saque
+            </button>
+        </div>
+
+        <div id="resultado"></div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
